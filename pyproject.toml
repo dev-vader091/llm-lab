@@ -7,7 +7,9 @@ authors = [
     { name = "Zephaniah Darden", email = "86165493+dev-vader091@users.noreply.github.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "ollama>=0.6.2",
+]
 
 [project.scripts]
 llm-lab = "llm_lab:main"
